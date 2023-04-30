@@ -2,20 +2,22 @@
   "name": "hello-world",
   "version": "1.0.0",
   "description": "Course Platzi",
-  "main": "greeting.js",
+  "main": "greeting.ts",
   "scripts": {
-    "lambda:dev": "serverless offline start"
+    "lambda:dev": "rimraf .build && serverless offline start"
   },
   "author": "Carlos Ernesto Diaz Basante",
   "license": "ISC",
-  "type": "module",
+  "type": "commonjs",
   "dependencies": {
     "@aws-sdk/client-s3": "^3.321.1"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.114",
     "@types/node": "^16.18.25",
+    "rimraf": "^5.0.0",
     "serverless-offline": "^12.0.4",
+    "serverless-plugin-typescript": "^2.1.4",
     "typescript": "^5.0.4"
   },
   "repository": {
