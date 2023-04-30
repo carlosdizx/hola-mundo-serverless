@@ -4,7 +4,8 @@
   "description": "Course Platzi",
   "main": "greeting.ts",
   "scripts": {
-    "lambda:dev": "rimraf .build && serverless offline start"
+    "lambda:dev": "rimraf .build && serverless offline start",
+    "deploy": "serverless deploy --verbose"
   },
   "author": "Carlos Ernesto Diaz Basante",
   "license": "ISC",
