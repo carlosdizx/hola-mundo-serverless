@@ -4,19 +4,19 @@
   "description": "Course Platzi",
   "main": "greeting.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lambda:dev": "serverless offline start"
   },
   "author": "Carlos Ernesto Diaz Basante",
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "aws-sdk": "^2.955.0"
+    "@aws-sdk/client-s3": "^3.321.1"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.75",
-    "@types/node": "^16.11.15",
-    "serverless": "^3.21.0",
-    "serverless-offline": "^8.1.0"
+    "@types/aws-lambda": "^8.10.114",
+    "@types/node": "^16.18.25",
+    "serverless-offline": "^12.0.4",
+    "typescript": "^5.0.4"
   },
   "repository": {
     "type": "git",
