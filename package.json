@@ -1,12 +1,12 @@
 {
-  "name": "hola-mundo",
+  "name": "hello-world",
   "version": "1.0.0",
-  "description": "",
-  "main": "handler.js",
+  "description": "Course Platzi",
+  "main": "greeting.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Carlos Ernesto Diaz Basante",
   "license": "ISC",
   "type": "module",
   "dependencies": {
@@ -17,5 +17,13 @@
     "@types/node": "^16.11.15",
     "serverless": "^3.21.0",
     "serverless-offline": "^8.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosdizx/hola-mundo-serverless.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carlosdizx/hola-mundo-serverless/issues"
+  },
+  "homepage": "https://github.com/carlosdizx/hola-mundo-serverless#readme"
 }
